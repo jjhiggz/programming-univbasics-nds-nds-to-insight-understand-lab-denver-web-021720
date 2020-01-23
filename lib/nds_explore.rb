@@ -26,6 +26,5 @@ i=0
 end
 return nds[ssindex]
 end
-nds = directors_database
-ssindex=nds.index('Stephen Speilberg') #speilberg's array index
-puts ssindex
+
+puts print_first_directors_movie_titles
