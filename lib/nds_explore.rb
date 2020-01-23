@@ -11,8 +11,9 @@ def pretty_print_nds(nds)
 end
 
 puts pretty_print_nds(directors_database)
-nds=directors_database
+
 def print_first_directors_movie_titles
 nds = directors_database
 ssindex=nds.index('Stephen Speilberg')
+
 end
