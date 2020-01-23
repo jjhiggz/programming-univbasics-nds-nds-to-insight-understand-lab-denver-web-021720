@@ -16,9 +16,10 @@ def print_first_directors_movie_titles
 nds = directors_database
 ssindex=nds.index('Stephen Speilberg') #speilberg's array index
 nsm = nds[ssindex].length #number of Speilberg movies
+puts nsm
 a=[]
 i=0
-while i<nsm do
+while i < nsm do
   a[i]=nds[ssindex][i][:title]
 i=i+1
 end
