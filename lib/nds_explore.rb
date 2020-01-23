@@ -18,6 +18,13 @@ def print_first_directors_movie_titles
   i=0
     while i<nds.length do
     a[i]=nds[i][:name]
+    if nds[i][:name] == 'Stephen Speilberg'
+      j=0
+      while j<nds[i][:name].length
+        puts nds[i][:name][j]
+        j=j+1
+      end
+    end
     i=i+1
   end
   puts a
