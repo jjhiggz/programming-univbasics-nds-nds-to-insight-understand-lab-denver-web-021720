@@ -24,7 +24,7 @@ while i < nsm do
   a[i]=nds[ssindex][i][:title]
 i=i+1
 end
-puts a
+returns a
 end
 nds = directors_database
 ssindex=nds.index('Stephen Speilberg') #speilberg's array index
