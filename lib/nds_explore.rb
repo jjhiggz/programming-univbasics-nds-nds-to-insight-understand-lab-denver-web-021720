@@ -11,7 +11,12 @@ def pretty_print_nds(nds)
 end
 
 puts pretty_print_nds(directors_database)
-
+nds=directors_database
 def print_first_directors_movie_titles
-  pretty_print_nds[names]
+  nds=directors_database
+  a=[]
+    while i<nds.length do
+    a[i]=nds[i][:name]
+  end
+  puts a
 end
