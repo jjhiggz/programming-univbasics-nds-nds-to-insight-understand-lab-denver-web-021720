@@ -26,5 +26,5 @@ i=0
 end
 return nds[ssindex]
 end
-
-puts print_first_directors_movie_titles
+a=print_first_directors_movie_titles
+puts a
