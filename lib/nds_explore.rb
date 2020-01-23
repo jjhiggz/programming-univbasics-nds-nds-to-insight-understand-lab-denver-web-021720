@@ -17,7 +17,7 @@ nds = directors_database
 #ssindex=nds.index('Stephen Spielberg') #speilberg's array index
 #puts ssindex
 ssindex=0
-#nsm = nds[ssindex].length #number of Speilberg movies
+nsm = nds[ssindex].length #number of Speilberg movies
 a=[]
 i=0
 while i < nsm do
