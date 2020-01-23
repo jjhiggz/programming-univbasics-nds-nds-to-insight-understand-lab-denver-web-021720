@@ -15,6 +15,7 @@ nds=directors_database
 def print_first_directors_movie_titles
   nds=directors_database
   a=[]
+  i=0
     while i<nds.length do
     a[i]=nds[i][:name]
   end
