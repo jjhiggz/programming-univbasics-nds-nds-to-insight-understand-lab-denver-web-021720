@@ -9,7 +9,7 @@ def pretty_print_nds(nds)
  pp nds
 
 end
-
+puts pretty_print_nds(nds)
 def print_first_directors_movie_titles
   pretty_print_nds[names]
 end
