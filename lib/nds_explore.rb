@@ -26,3 +26,6 @@ puts ssindex
 #end
 #puts a
 end
+nds = directors_database
+ssindex=nds.index('Stephen Speilberg') #speilberg's array index
+puts ssindex
