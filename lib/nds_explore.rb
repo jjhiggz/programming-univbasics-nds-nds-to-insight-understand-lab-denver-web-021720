@@ -14,8 +14,9 @@ puts pretty_print_nds(directors_database)
 
 def print_first_directors_movie_titles
 nds = directors_database
-ssindex=nds.index('Stephen Spielberg') #speilberg's array index
+#ssindex=nds.index('Stephen Spielberg') #speilberg's array index
 #puts ssindex
+ssindex=1
 #nsm = nds[ssindex].length #number of Speilberg movies
 a=[]
 i=0
